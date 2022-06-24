@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class setting : MonoBehaviour
 {
-    public GameObject settings;
     public GameObject level;
+    public GameObject settings;
     public void Settings()
     {
         settings.SetActive(true);
