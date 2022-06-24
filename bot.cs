@@ -7,9 +7,10 @@ public class bot : MonoBehaviour
     public GameObject[] firstGroup;
     public GameObject[] secondGroup;
     public bot button;
+    public bool isPush;
     public Material normal;
     public Material transparent;
-    public bool isPush;
+    
 
     private void OnTriggerEnter(Collider other)
     {
