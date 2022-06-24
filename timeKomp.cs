@@ -7,8 +7,8 @@ public class timeKomp : MonoBehaviour
 {
     public GameObject display;
     public int hour;
+     public int sec;
     public int minute;
-    public int sec;
     void Start()
     {
         hour = System.DateTime.Now.Hour;
